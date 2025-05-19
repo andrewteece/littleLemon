@@ -71,8 +71,8 @@ body {
 }
 
 article {
-  border-bottom: 2px solid rgb(98, 111, 71);
   padding-top: 2rem;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .article-title {
