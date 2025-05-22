@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Little Lemon Restaurant</title>
   </head>
-  <body class="wrapper">
-    <header>
+  <body>
+    <header class="wrapper">
       <section class="header-logo">
         <img src="./assets/images/Asset 16@4x.png" alt="" />
       </section>
@@ -37,19 +37,20 @@
       </nav>
     </header>
     <main>
-      <div>
+      <div class="wrapper">
         <h1 class="banner">Welcome to Little Lemon Restaurant</h1>
       </div>
-      <div class="banner-img flex">
+      <div class="flex wrapper">
         <img
           src="./assets/images/interior-modern-urban-restaurant-600nw-1601828464.webp"
           alt="little lemon banner"
         />
       </div>
-      <section class="flex-col section-bottom">
-        <article class="flow--content bg-light">
+      <section class="container-block container-flexbox">
+        <article class="flow--content bg-light item-col-3">
           <h2 class="article-title">Our New Menu</h2>
           <img
+            class="article-img"
             src="./assets/images/foodOnGrill.jpg"
             alt="fresh food on the grill"
           />
@@ -59,13 +60,15 @@
             Praesentium culpa adipisci, rem minima molestias dolores sint
             tenetur accusantium sequi dicta cupiditate quaerat laboriosam
             explicabo doloremque perferendis corporis enim aperiam aliquam nisi
-            quas suscipit. Distinctio, ea.
+            quas suscipit. Distinctio.
           </p>
           <div><a href="#" class="article-link">See Our New Menu</a></div>
         </article>
-        <article class="flow--content bg-light">
+
+        <article class="flow--content bg-light item-col-3">
           <h2 class="article-title">Book a Table</h2>
           <img
+            class="article-img"
             src="./assets/images/bookTable.jpg"
             alt="Go ahead and book a table"
           />
@@ -74,15 +77,16 @@
             quos architecto necessitatibus id quam accusantium optio itaque,
             minima quaerat ut maxime ipsam fugit aspernatur at autem alias in
             pariatur? Dicta quae perferendis aut dolore repellendus soluta,
-            nihil, molestias illo voluptatem magni quod nobis, minus nemo!
+            nihil, molestias illo voluptatem magni quod nobis
           </p>
           <div>
             <a href="#" class="article-link">Book your table now</a>
           </div>
         </article>
-        <article class="flow--content bg-light">
+        <article class="flow--content bg-light item-col-3">
           <h2 class="article-title">Opening Hours</h2>
           <img
+            class="article-img"
             src="./assets/images/open.jpg"
             alt="Little lemon hours that we are open"
           />
@@ -98,11 +102,16 @@
       </section>
     </main>
     <footer>
-      <div class="flex">
-        <div class="footer-logo">
-          <img src="./assets/images/Asset 18@4x.png" alt="Little Lemon Logo" />
+      <div class="container-block container-flexbox">
+        <div class="footer-logo item-col-2">
+          <img
+            src="./assets/images/Asset 9@4x.png"
+            alt="Little Lemon Logo"
+            width="100"
+            height="100"
+          />
         </div>
-        <div class="footer-text">
+        <div class="footer-text item-col-2">
           <p>Copyright Little Lemon Restaurant</p>
         </div>
       </div>
